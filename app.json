@@ -4,11 +4,9 @@
     "slug": "virtualtry",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#6366f1"
     },
@@ -17,18 +15,10 @@
       "bundleIdentifier": "com.virtualtry.app"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#6366f1"
-      },
       "package": "com.virtualtry.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-camera",
-      "expo-image-picker"
-    ]
+    }
   }
 }
