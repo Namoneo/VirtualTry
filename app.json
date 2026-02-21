@@ -14,40 +14,21 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.virtualtry.app",
-      "infoPlist": {
-        "NSCameraUsageDescription": "VirtualTry needs camera access to let you try on clothes virtually",
-        "NSPhotoLibraryUsageDescription": "VirtualTry needs photo library access to save your virtual try-ons"
-      }
+      "bundleIdentifier": "com.virtualtry.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6366f1"
       },
-      "package": "com.virtualtry.app",
-      "permissions": [
-        "android.permission.CAMERA",
-        "android.permission.READ_EXTERNAL_STORAGE",
-        "android.permission.WRITE_EXTERNAL_STORAGE"
-      ]
+      "package": "com.virtualtry.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      [
-        "expo-camera",
-        {
-          "cameraPermission": "VirtualTry needs camera access to let you try on clothes virtually"
-        }
-      ],
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "VirtualTry needs photo access to save your virtual try-ons"
-        }
-      ]
+      "expo-camera",
+      "expo-image-picker"
     ]
   }
 }
