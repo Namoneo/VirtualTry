@@ -35,7 +35,7 @@ function ProfileStack() {
   );
 }
 
-function getTabIcon(routeName: string, focused: boolean): keyof typeof Ionicons.glyphMap {
+function getTabIcon(routeName: string, focused: boolean) {
   if (routeName === 'Home') {
     return focused ? 'home' : 'home-outline';
   }
